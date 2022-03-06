@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: sans-serif;
+    color: white;
+    background: black;
+}
+.header {
+  background: url(fundonet.jpg);
+  position: relative;
+  z-index: 100;
+  width: 100%;
+  display: inline-block;
+  border-bottom: 8px solid rgb(77, 77, 77);
+
+}
+.header-filha{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 30px;
+}
+.header img{
+    width: 175px;
+    height: 95px;
+    
+}
+
+.opcao select{
+    padding: 5.5px 18px;
+    border: 1px solid #aaa;
+    background: rgba(0,0,0,.4);
+    color: #fff;
+    font-size: .875rem;
+    font-size: 16px;
+    margin-right: 20px; 
+}
+.opcao a{
+    background: #e50914;
+    color: white;
+    font-size: 16px;
+    padding: 7px 17px;
+    text-decoration: none;
+    border-radius: 3px;
+
+}
+
+.gradient {
+    background: rgba(0,0,0,0.1);
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.main-filha{
+    z-index: 1;
+    display: grid;
+    justify-items: center;
+    
+}
+.main-filha h1{
+    max-width: 700px;
+    font-size: 50px;
+    margin-top: 140px;
+}
+.main-filha span{
+    font-size: 26px;
+    margin: 16px 0px;
+}
+.main-filha p{
+    font-size: 18px;
+    padding: 0px 55.1875px;
+}
+.form{
+    display: grid;
+    grid-template-columns: 450px 180px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+.form input{
+    padding: 20px 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    border: 0;
+}
+.form button{
+    background: #e50914;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 26px;
+}
+.section-um{
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    border-bottom: 8px solid rgb(77, 77, 77);
+    
+}
+.section-um img{
+    width: 800px;
+    height: 370px;
+}
+.section-um-div h1{
+    font-size: 50px;
+    padding: 20px;
+}
+.section-um-div p{
+    font-size: 28px;
+    padding: 10px 20px;
+}
+
